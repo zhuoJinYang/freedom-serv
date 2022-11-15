@@ -1,5 +1,8 @@
 server:
   port: 12300
+spring:
+  application:
+    name: eureka-server
 eureka:
   client:
     service-url:
