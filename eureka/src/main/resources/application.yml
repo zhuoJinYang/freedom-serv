@@ -1,0 +1,6 @@
+server:
+  port: 12300
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:12300/eureka
