@@ -37,11 +37,6 @@ spring:
       #当值大于0时poolPreparedStatements会自动修改为true
       max-pool-prepared-statement-per-connection-size: 20
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:12300/eureka
-
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

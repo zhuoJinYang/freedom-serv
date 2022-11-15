@@ -1,0 +1,8 @@
+server:
+  port: 12305
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
