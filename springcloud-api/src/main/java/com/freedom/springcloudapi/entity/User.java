@@ -1,4 +1,4 @@
-package com.freedom.user.entity;
+package com.freedom.springcloudapi.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -13,7 +13,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author zjy
- * @since 2022-11-15
+ * @since 2022-11-16
  */
 @Getter
 @Setter

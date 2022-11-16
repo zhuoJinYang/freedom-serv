@@ -1,6 +1,6 @@
-package com.freedom.user.service;
+package com.freedom.springcloudapi.service;
 
-import com.freedom.user.entity.User;
+import com.freedom.springcloudapi.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author zjy
- * @since 2022-11-15
+ * @since 2022-11-16
  */
 public interface IUserService extends IService<User> {
 

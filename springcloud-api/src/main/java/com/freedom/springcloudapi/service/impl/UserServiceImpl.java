@@ -1,8 +1,8 @@
-package com.freedom.user.service.impl;
+package com.freedom.springcloudapi.service.impl;
 
-import com.freedom.user.entity.User;
-import com.freedom.user.mapper.UserMapper;
-import com.freedom.user.service.IUserService;
+import com.freedom.springcloudapi.entity.User;
+import com.freedom.springcloudapi.mapper.UserMapper;
+import com.freedom.springcloudapi.service.IUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author zjy
- * @since 2022-11-15
+ * @since 2022-11-16
  */
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {
