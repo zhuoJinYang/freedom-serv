@@ -16,7 +16,7 @@ public class UserConsumerController {
     @Resource
     private RestTemplate restTemplate;
 
-    private static final String REST_URL_PREFIX = "http://localhost:18001";
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-HYSTRIX";
 
     @GetMapping("/{id}")
     public User getUserById(@PathVariable("id") Long id){

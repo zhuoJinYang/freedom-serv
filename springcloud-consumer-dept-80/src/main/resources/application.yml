@@ -5,3 +5,8 @@ spring:
     active: "dev"
     group:
       "dev": "dev,api"
+eureka:
+  client:
+    register-with-eureka: false # 不向 Eureka注册自己
+    service-url:
+      defaultZone: http://eureka17001.com:17001/eureka/,http://eureka17002.com:17002/eureka/,http://eureka17003.com:17003/eureka/

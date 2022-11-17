@@ -1,0 +1,18 @@
+server:
+  port: 18002
+spring:
+  profiles:
+    active: "dev"
+    group:
+      "dev": "dev,api"
+  application:
+    name: springcloud-provider
+# Eureka配置：配置服务注册中心地址
+eureka:
+  client:
+    service-url:
+      #defaultZone: http://localhost:17001/eureka
+      # 集群
+      defaultZone: http://eureka17001.com:17001/eureka/,http://eureka17002.com:17002/eureka/,http://eureka17003.com:17003/eureka/
+  instance:
+    instance-id: springcloud-provider-dept-18002 #修改Eureka上的默认描述信息

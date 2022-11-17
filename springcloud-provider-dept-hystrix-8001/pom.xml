@@ -8,10 +8,10 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>springcloud-consumer-dept-80</artifactId>
+    <artifactId>springcloud-provider-dept-hystrix-8001</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloud-consumer-dept-80</name>
-    <description>springcloud-consumer-dept-80</description>
+    <name>springcloud-provider-dept-hystrix-8001</name>
+    <description>springcloud-provider-dept-hystrix-8001</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -27,6 +27,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+            <version>2.2.10.RELEASE</version>
         </dependency>
     </dependencies>
 

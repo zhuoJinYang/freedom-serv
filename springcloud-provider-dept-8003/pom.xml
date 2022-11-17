@@ -8,10 +8,10 @@
         <version>0.0.1</version>
     </parent>
 
-    <artifactId>springcloud-consumer-dept-80</artifactId>
+    <artifactId>springcloud-provider-dept-8003</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloud-consumer-dept-80</name>
-    <description>springcloud-consumer-dept-80</description>
+    <name>springcloud-provider-dept-8003</name>
+    <description>springcloud-provider-dept-8003</description>
 
     <properties>
         <java.version>1.8</java.version>

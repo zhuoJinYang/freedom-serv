@@ -1,8 +1,7 @@
-package com.freedom.springcloudproviderdept8001.web;
+package com.freedom.springcloudproviderdept8003.web;
 
 import com.freedom.springcloudapi.entity.User;
 import com.freedom.springcloudapi.service.IUserService;
-import com.freedom.springcloudapi.service.impl.UserServiceImpl;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,7 +19,7 @@ public class UserProviderController {
     @GetMapping("/{id}")
     public User getById(@PathVariable("id") Long id) {
         User user = userService.getById(id);
-        user.setName("1");
+        user.setName("3");
         return user;
     }
 
