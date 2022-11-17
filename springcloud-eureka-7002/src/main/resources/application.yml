@@ -1,5 +1,5 @@
 server:
-  port: 17001
+  port: 17002
 spring:
   profiles:
     active: "dev"
@@ -9,7 +9,7 @@ spring:
 eureka:
   instance:
     # Eureka服务端的实例名字
-    hostname: eureka17001.com
+    hostname: eureka17002.com
   client:
     # 表示是否向 Eureka 注册中心注册自己(这个模块本身是服务器,所以不需要)
     register-with-eureka: false
@@ -20,4 +20,4 @@ eureka:
       # 单机
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
       # 集群
-      defaultZone: http://eureka17002.com:17002/eureka/,http://eureka17003.com:17003/eureka/
+      defaultZone: http://eureka17001.com:17001/eureka/,http://eureka17003.com:17003/eureka/

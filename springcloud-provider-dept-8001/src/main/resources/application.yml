@@ -11,6 +11,8 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:17001/eureka
+      #defaultZone: http://localhost:17001/eureka
+      # 集群
+      defaultZone: http://eureka17001.com:17001/eureka/,http://eureka17002.com:17002/eureka/,http://eureka17003.com:17003/eureka/
   instance:
     instance-id: springcloud-provider-dept-18001 #修改Eureka上的默认描述信息
